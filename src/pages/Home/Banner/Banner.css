@@ -1,0 +1,15 @@
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+.carousel .control-dots {
+  margin-bottom: 40px;
+}
+.carousel .control-dots .dot {
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+}
+.carousel .control-dots .dot.selected {
+  background: #007aff;
+}
