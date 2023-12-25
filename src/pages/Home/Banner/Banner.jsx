@@ -10,7 +10,7 @@ import { Carousel } from "react-responsive-carousel";
 import "./Banner.css";
 const Banner = () => {
   return (
-    <Carousel showArrows={false} autoPlay>
+    <Carousel className="mb-10" showArrows={false} autoPlay>
       <div>
         <img src={img1} />
       </div>

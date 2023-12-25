@@ -1,0 +1,13 @@
+.swiper-slide img {
+  width: 100%;
+}
+.swiper {
+  padding-bottom: 60px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+}
