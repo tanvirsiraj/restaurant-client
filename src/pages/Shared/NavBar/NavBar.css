@@ -1,0 +1,8 @@
+.active {
+  color: #eeff25 !important;
+  background-color: none !important;
+  outline: none !important;
+}
+.menu :where(li:not(.menu-title) > *:not(ul):not(details):not(.menu-title)) {
+  background: none !important;
+}

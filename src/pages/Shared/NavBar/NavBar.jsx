@@ -1,14 +1,32 @@
+import { NavLink } from "react-router-dom";
+import "./NavBar.css";
 const NavBar = () => {
   const navOptions = (
-    <div className="flex justify-center items-center">
+    <div className=" md:flex md:justify-center md:items-center text-black md:text-white">
       <li>
-        <a className="font-primary uppercase text-xl">Home</a>
+        <NavLink to="/" className="font-primary uppercase text-xl">
+          Home
+        </NavLink>
       </li>
       <li>
-        <a className="font-primary uppercase text-xl">Contact Us</a>
+        <NavLink to="/contactus" className="font-primary uppercase text-xl">
+          Contact Us
+        </NavLink>
       </li>
       <li>
-        <a className="font-primary uppercase text-xl">Dashboard</a>
+        <NavLink to="/dashboard" className="font-primary uppercase text-xl">
+          Dashboard
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to="/menu" className="font-primary uppercase text-xl">
+          Our Menu
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to="/order" className="font-primary uppercase text-xl">
+          Order Food
+        </NavLink>
       </li>
     </div>
   );
