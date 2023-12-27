@@ -1,0 +1,8 @@
+[role="tab"] {
+  cursor: pointer;
+}
+.react-tabs__tab--selected {
+  color: #bb8506;
+  border-bottom: 2px solid #bb8506;
+  cursor: pointer;
+}
